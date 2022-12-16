@@ -1,2 +1,2 @@
 # Sample Hierarchical Workflow
-![]/wf.png
+![](/wf.png)
