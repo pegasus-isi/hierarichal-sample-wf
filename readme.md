@@ -19,5 +19,5 @@ File descripotions:
 The workflow is set to run on a local HTCondor Pool Condorio
 data configuration mode by default. To run the workflow :
 ```
-    ./plan.sh workflow.yml
+$ ./plan.sh workflow.yml
 ```
