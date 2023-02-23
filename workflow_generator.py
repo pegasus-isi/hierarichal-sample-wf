@@ -155,9 +155,9 @@ def generate_workflow(exec_site_name):
                         "inner"
                     )\
                     .add_inputs(
-                        File("inner_diamond_workflow.pegasus.properties"),
-                        File("inner_diamond_workflow_tc.yml"),
-                        File("sites.yml"),
+                        File("inner_diamond_workflow.pegasus.properties", for_planning=True),
+                        File("inner_diamond_workflow_tc.yml", for_planning=True),
+                        File("sites.yml", for_planning=True),
                         webpage
                     )\
                     .add_outputs(fd)
